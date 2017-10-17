@@ -1,4 +1,4 @@
-<?php
+  <?php
 
 return [
 
@@ -169,6 +169,7 @@ return [
          */
 
         Barryvdh\Cors\ServiceProvider::class,
+        Laravel\Passport\PassportServiceProvider::class,
 
         /*
          * Application Service Providers...
